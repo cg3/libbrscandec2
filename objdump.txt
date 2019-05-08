@@ -1,0 +1,45 @@
+./libbrscandec2.so.1.0.0:     file format elf64-x86-64
+
+DYNAMIC SYMBOL TABLE:
+0000000000000aa0 l    d  .init	0000000000000000              .init
+0000000000000bb0 l    d  .text	0000000000000000              .text
+0000000000007308 l    d  .fini	0000000000000000              .fini
+0000000000007320 l    d  .rodata	0000000000000000              .rodata
+0000000000007494 l    d  .eh_frame_hdr	0000000000000000              .eh_frame_hdr
+0000000000007698 l    d  .eh_frame	0000000000000000              .eh_frame
+0000000000108000 l    d  .ctors	0000000000000000              .ctors
+0000000000108010 l    d  .dtors	0000000000000000              .dtors
+0000000000108020 l    d  .jcr	0000000000000000              .jcr
+0000000000108280 l    d  .data	0000000000000000              .data
+00000000001088a0 l    d  .bss	0000000000000000              .bss
+0000000000006710 g    DF .text	000000000000004a  Base        ScanDecClose
+00000000000065e8 g    DF .text	0000000000000082  Base        ScanDecWrite
+000000000000649e g    DF .text	0000000000000024  Base        ScanDecSetTblHandle
+0000000000000000      DF *UND*	00000000000001d2  GLIBC_2.2.5 malloc
+00000000000015f6 g    DF .text	000000000000007c  Base        ChangeResoWriteEnd
+0000000000000d0c g    DF .text	0000000000000164  Base        bugchk_free
+0000000000000000      DF *UND*	000000000000015c  GLIBC_2.2.5 memmove
+0000000000000000      DO *UND*	0000000000000008  GLIBC_2.2.5 stderr
+0000000000000aa0 g    DF .init	0000000000000000  Base        _init
+0000000000000000      DF *UND*	000000000000008e  GLIBC_2.2.5 fprintf
+0000000000000000      DF *UND*	0000000000000261  GLIBC_2.2.5 abort
+0000000000000000      DF *UND*	00000000000000fb  GLIBC_2.2.5 fflush
+00000000001088a4 g    DO .bss	0000000000000004  Base        nMallocCnt
+0000000000000e70 g    DF .text	00000000000006b0  Base        ChangeResoInit
+00000000001088a0 g    D  *ABS*	0000000000000000  Base        __bss_start
+00000000000015c9 g    DF .text	000000000000002d  Base        ChangeResoWrite
+000000000000666a g    DF .text	00000000000000a6  Base        ScanDecPageEnd
+0000000000006300 g    DF .text	000000000000019e  Base        ScanDecOpen
+0000000000000000  w   DF *UND*	00000000000000c8  GLIBC_2.2.5 __cxa_finalize
+0000000000000000      DF *UND*	00000000000000f2  GLIBC_2.2.5 memset
+0000000000007308 g    DF .fini	0000000000000000  Base        _fini
+0000000000001520 g    DF .text	00000000000000a9  Base        ChangeResoWriteStart
+0000000000001672 g    DF .text	000000000000004f  Base        ChangeResoClose
+00000000001088a0 g    D  *ABS*	0000000000000000  Base        _edata
+0000000000108f28 g    D  *ABS*	0000000000000000  Base        _end
+00000000000064c2 g    DF .text	0000000000000126  Base        ScanDecPageStart
+00000000001088a8 g    DO .bss	0000000000000004  Base        nFreeCnt
+0000000000000000  w   D  *UND*	0000000000000000              _Jv_RegisterClasses
+0000000000000c4c g    DF .text	00000000000000c0  Base        bugchk_malloc
+0000000000000000  w   D  *UND*	0000000000000000              __gmon_start__
+
